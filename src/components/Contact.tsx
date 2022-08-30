@@ -13,7 +13,9 @@ const Contact = () => {
 
       {/* Desc */}
       <div className="font-semibold md:text-xl flex flex-col space-y-1 items-center pt-10 pb-16">
-        <p>Interested in working together or have a question?</p>
+        <p className="text-center">
+          Interested in working together or have a question?
+        </p>
         <p>
           Contact me at{' '}
           <a
