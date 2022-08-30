@@ -21,12 +21,6 @@ module.exports = {
         },
       },
       backgroundImage: {
-        wavesDark: "url('/src/assets/background/waveDark.svg')",
-        wavesLight: "url('/src/assets/background/waveLight.svg')",
-        wavesLight50: "url('/src/assets/background/waveLight50.svg')",
-        wavesDarkAlt: "url('/src/assets/background/wavesDarkAlt.svg')",
-        wavesCurvedDark: "url('/src/assets/background/waveCurvedDark8003.svg')",
-        wavesCurvedLight: "url('/src/assets/background/waveCurvedLight3.svg')",
         animatedwavesCurvedDark:
           "url('/src/assets/background/animatedwaveCurvedDark.svg')",
         animatedwavesCurvedLight:
