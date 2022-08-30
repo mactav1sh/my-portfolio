@@ -1,3 +1,4 @@
+import bookingCloneImage from './images/bookingclone.png';
 import momentsImage from './images/moments.png';
 import todoImage from './images/todo.png';
 import vidtubeImage from './images/vidtube.png';
@@ -7,6 +8,19 @@ import flyawaybackendImage from './images/flywawaybackend.png';
 import porfolioImage from './images/portfolio.png';
 
 export const projects = [
+  {
+    id: 'booking-project',
+    title: 'booking clone',
+    type: 'frontend',
+    description:
+      'A MERN stack clone of booking website, features include authentication and encryption,various types of properties and reservation functionality.',
+    live: false,
+    liveUrl: '',
+    public: true,
+    codeUrl: 'https://github.com/mactav1sh/flyaway-frontend',
+    image: bookingCloneImage,
+    stack: ['ts', 'react', 'tailwind', 'nodejs', 'mongodb', 'jwt'],
+  },
   {
     id: 'moments-project',
     title: 'Moments',

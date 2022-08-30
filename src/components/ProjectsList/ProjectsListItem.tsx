@@ -72,13 +72,13 @@ const ProjectsListItem = ({ project }: IProps) => {
           ))}
         </div>
         {/* links */}
-        <div className="flex justify-around items-center py-3 px-4 md:space-x-2">
+        <div className="flex justify-center items-center py-3 px-2 space-x-3 md:space-x-2">
           {project.public && (
             <a
               target="_blank"
               rel="noreferrer"
               href={project.codeUrl}
-              className="flex justify-center items-center space-x-2 border-2 border-gray-600 dark:border-white w-36 py-1 rounded-md shadow-md duration-200 hover:text-orange-500 hover:border-orange-500 dark:hover:border-orange-500 max-w-[10rem]  lg:w-28"
+              className="flex justify-center items-center space-x-2 border-2 border-gray-600 dark:border-white w-32 py-1 rounded-md shadow-md duration-200 hover:text-orange-500 hover:border-orange-500 dark:hover:border-orange-500 max-w-[10rem]  lg:w-28"
             >
               <GithubIcon className="w-4 h-4" />
               <span className="text-sm tracking-wider uppercase font-semibold">
@@ -92,7 +92,7 @@ const ProjectsListItem = ({ project }: IProps) => {
               target="_blank"
               rel="noreferrer"
               href={project.liveUrl}
-              className="flex justify-center items-center space-x-2 border-2 w-36 py-1 rounded-md shadow-md duration-200 text-orange-500 border-orange-500 dark:hover:text-orange-300 dark:hover:border-orange-300 hover:text-orange-800 hover:border-orange-800  max-w-[10rem]  lg:w-28"
+              className="flex justify-center items-center space-x-2 border-2 w-32 py-1 rounded-md shadow-md duration-200 text-orange-500 border-orange-500 dark:hover:text-orange-300 dark:hover:border-orange-300 hover:text-orange-800 hover:border-orange-800  max-w-[10rem]  lg:w-28"
             >
               <HiOutlineLink className="w-4 h-4" />
               <span className="text-sm tracking-wider uppercase font-semibold">
