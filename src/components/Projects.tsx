@@ -57,7 +57,7 @@ const Projects = forwardRef<HTMLElement>((_props, ref) => {
         </p>
       </div>
       {/* options */}
-      <div className="flex justify-center mb-12 ">
+      <div className="flex justify-center mb-12 dark:text-darkGrey-500">
         <div className=" bg-gradient-to-r from-red-600 to-orange-500 p-[0.15rem] flex justify-center space-x-[0.15rem] rounded-sm">
           <span
             onClick={() => handleClick('all')}

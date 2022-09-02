@@ -1,6 +1,4 @@
-import { Link } from 'react-router-dom';
 import { FiArrowRight } from 'react-icons/fi';
-import { RefObject } from 'react';
 
 interface IProps {
   scrollTo: () => void;
