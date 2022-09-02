@@ -14,8 +14,8 @@ export const projects = [
     type: 'frontend',
     description:
       'A MERN stack clone of booking website, features include authentication and encryption,various types of properties and reservation functionality.',
-    live: false,
-    liveUrl: '',
+    live: true,
+    liveUrl: 'https://flyawayclone.herokuapp.com/',
     public: true,
     codeUrl: 'https://github.com/mactav1sh/flyaway-frontend',
     image: bookingCloneImage,

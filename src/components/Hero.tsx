@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
 import { FiArrowRight } from 'react-icons/fi';
+import { RefObject } from 'react';
 
-const Hero = () => {
+interface IProps {
+  scrollTo: () => void;
+}
+
+const Hero = ({ scrollTo }: IProps) => {
   return (
     <section className="bg-animatedwavesCurvedLight dark:bg-animatedwavesCurvedDark bg-no-repeat bg-bottom">
       <div className="mx-auto max-w-5xl h-screen flex flex-col items-center justify-center">
@@ -19,17 +24,17 @@ const Hero = () => {
             </p>
           </div>
           {/* View my work */}
-          <Link
-            to="#"
+          <button
+            onClick={() => scrollTo()}
             className="text-gray-600 border-2 border-gray-500 py-1 md:py-1.5 lg:py-2 rounded-md px-3 md:px-6 lg:px-10 hover:border-orange-500 shadow-md hover:text-orange-500 duration-200 dark:border-white dark:hover:border-orange-500 md:font-semibold group dark:text-white dark:hover:text-orange-500"
           >
             <div className="flex items-end justify-center space-x-1 md:space-x-2 lg:space-x-3">
-              <span className="text-sm md:text-base lg:text-lg">
+              <span className="text-sm md:text-base lg:text-lg text-gray-500 dark:text-white group-hover:text-orange-500 duration-200">
                 View my work
               </span>
               <FiArrowRight className="h-4 w-4 md:h-5 md:w-5 lg:h-7 lg:w-7 group-hover:rotate-90 transition-transform duration-300 text-gray-500 dark:text-white group-hover:text-orange-500" />
             </div>
-          </Link>
+          </button>
 
           {/* <div className="flex space-x-4 font-semibold">
             <Link
