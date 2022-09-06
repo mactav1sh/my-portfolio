@@ -17,17 +17,34 @@ const Hero = ({ scrollTo }: IProps) => {
                 Abdelrahman El Toukhy.
               </span>
             </p>
-            <p className="text-sm font-normal md:font-normal md:text-xl lg:text-2xl">
-              Full Stack Web Developer.
-            </p>
+
+            {/* slider container */}
+            <div className="flex items-center justify-center text-sm font-normal md:text-xl lg:text-2xl space-x-1 md:space-x-2 lg:space-x-2.5 mr-2">
+              {/* Slider text */}
+              <div className="h-6 overflow-hidden ">
+                <div className="h-6 mb-6 flex items-center justify-end font-medium slideText">
+                  <span>Node Js</span>
+                </div>
+                <div className="h-6 mb-6 flex justify-end items-center font-medium">
+                  <span>React JS</span>
+                </div>
+                <div className="h-6 mb-6 flex items-center justify-end font-medium">
+                  <span>Full Stack</span>
+                </div>
+              </div>
+              {/* fixed text */}
+              <span>Developer</span>
+            </div>
+            {/* slider */}
           </div>
+
           {/* View my work */}
           <button
             onClick={() => scrollTo()}
-            className="text-gray-600 border-2 border-gray-500 py-1 md:py-1.5 lg:py-2 rounded-md px-3 md:px-6 lg:px-10 hover:border-orange-500 shadow-md hover:text-orange-500 duration-200 dark:border-white dark:hover:border-orange-500 md:font-semibold group dark:text-white dark:hover:text-orange-500"
+            className="text-gray-600 border-2 border-gray-500 py-1 md:py-1.5 lg:py-2 rounded-md px-4 md:px-10 lg:px-12 hover:border-orange-500 shadow-md hover:text-orange-500 duration-200 dark:border-white dark:hover:border-orange-500 md:font-semibold group dark:text-white dark:hover:text-orange-500"
           >
             <div className="flex items-end justify-center space-x-1 md:space-x-2 lg:space-x-3">
-              <span className="text-sm md:text-base lg:text-lg text-gray-500 dark:text-white group-hover:text-orange-500 duration-200">
+              <span className="text-sm md:text-base lg:text-lg text-gray-500 dark:text-white group-hover:text-orange-500 duration-200 font-medium">
                 View my work
               </span>
               <FiArrowRight className="h-4 w-4 md:h-5 md:w-5 lg:h-7 lg:w-7 group-hover:rotate-90 transition-transform duration-300 text-gray-500 dark:text-white group-hover:text-orange-500" />

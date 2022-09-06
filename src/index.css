@@ -39,3 +39,31 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
 }
+
+.slideText {
+  animation: slide 6s linear 1s infinite;
+}
+
+@keyframes slide {
+  0% {
+    margin-top: -144px;
+  }
+  5% {
+    margin-top: -96px;
+  }
+  33% {
+    margin-top: -96px;
+  }
+  38% {
+    margin-top: -48px;
+  }
+  66% {
+    margin-top: -48px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
