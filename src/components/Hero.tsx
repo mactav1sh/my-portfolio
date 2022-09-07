@@ -22,13 +22,13 @@ const Hero = ({ scrollTo }: IProps) => {
             <div className="flex items-center justify-center text-sm font-normal md:text-xl lg:text-2xl space-x-1 md:space-x-2 lg:space-x-2.5 mr-2">
               {/* Slider text */}
               <div className="h-6 overflow-hidden ">
-                <div className="h-6 mb-6 flex items-center justify-end font-medium slideText">
+                <div className="h-6 mb-6 flex items-center justify-end font-semibold slideText">
                   <span>Node Js</span>
                 </div>
-                <div className="h-6 mb-6 flex justify-end items-center font-medium">
+                <div className="h-6 mb-6 flex justify-end items-center font-semibold">
                   <span>React JS</span>
                 </div>
-                <div className="h-6 mb-6 flex items-center justify-end font-medium">
+                <div className="h-6 mb-6 flex items-center justify-end font-semibold">
                   <span>Full Stack</span>
                 </div>
               </div>
