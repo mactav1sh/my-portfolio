@@ -38,7 +38,7 @@ const techIcons = {
 
 const ProjectsListItem = ({ project }: IProps) => {
   return (
-    <li className="bg-cardWaveLight bg-cover w-full dark:bg-cardWaveDark rounded-md overflow-hidden shadow-lg max-w-sm h-[30rem] lg:h-[28rem] group relative">
+    <li className="bg-cardWaveLight bg-cover w-full dark:bg-cardWaveDark rounded-md overflow-hidden shadow-lg max-w-sm h-[30rem] lg:h-[28rem] group relative outline outline-2 outline-offset-4 outline-transparent  hover:outline-orange-500 duration-300">
       {/* image */}
       <div className="mb-4 h-48 overflow-hidden md:mb-7 ">
         <img
