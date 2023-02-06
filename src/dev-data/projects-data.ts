@@ -10,12 +10,12 @@ import porfolioImage from './images/portfolio.png';
 export const projects = [
   {
     id: 'booking-project',
-    title: 'booking clone',
+    title: `flyaway's booking`,
     type: 'frontend',
     description:
       'A MERN stack clone of booking website, features include authentication and encryption,various types of properties and reservation functionality.',
     live: true,
-    liveUrl: 'https://flyawayclone.herokuapp.com/',
+    liveUrl: 'https://flyaway-site.vercel.app/',
     public: true,
     codeUrl: 'https://github.com/mactav1sh/flyaway-frontend',
     image: bookingCloneImage,
